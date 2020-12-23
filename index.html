@@ -1,0 +1,67 @@
+<!-- Lauren Bello, Evan Pomponio
+     CSC 370 
+     December 2, 2020
+     Landing page for users giving an introduction about our service
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Love Brew</title>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="img/cup.png" class="logo" alt="Love Brew" width=50 height=50>
+        <a class="navbar-brand" href="index.html"><strong>Love Brew</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ODM_data.php">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="documentation.html" target="_blank">Documentation</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <div class="dropdown">
+              <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Account
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li class="nav-item">
+                  <a class="nav-link" href="login.php">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="admin.php">Admin</a>
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div><hr>
+      </nav>
+
+      <h2 class = "title">Love Brew: A Smarter Way To Online Date</h2>
+      <div class="intro">
+          <p>The online dating market has grown to be a billion dollar industry that is projected to continue seeing expansion over the next decade. With such a saturated market, there are an influx of platforms from which users can choose.  As the market has millions of users, there is a high level of competition to set yourself apart and stand out. <br><br>
+          Given that online dating relies heavily on making a good first impression through one’s profile, there is considerable pressure on creating a unique profile that will capture the most user engagement and generate the highest response volume. This leaves the user at a crossroads with how he/she wants to take their approach. Should I be funny, lighthearted, serious, honest? What if people won’t like my answers?  This is a common predicament that most people face when creating their profiles and with a lack of specific feedback, there is no help to point users in the right direction on how to improve. </p>
+          <p><br><strong>Our Product</strong><br>
+          With our application, online dating users will now be able to receive feedback on their profile to gain insight on their performance and gauge how their responses appeal to the platform’s users.</p> <br><hr>
+          <div class="intro-links"><a href="http://localhost/brew/display_users.php" target="_blank">User Data</a>
+          </div>
+      </div>
+  </body>
+</html>

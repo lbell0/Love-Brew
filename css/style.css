@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: arial;
+    color: black;
+    margin: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+td, th {
+    font-family: arial;
+    font-size: 14px;
+    border: 1.5px solid black;
+    padding: 10px;
+}
+.card {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.dropdown {
+    background-color: #F5EFEA;
+    border: .5px solid #F1ECE8;
+}
+.docu-links {
+    margin: 50px;
+}
+.intro {
+    display: block;
+    letter-spacing: 1px;
+    margin: 10px 60px 20px;
+}
+.intro-links {
+    margin-top: 40px;
+}
+.logo {
+    margin: 3px 20px 6px;
+}
+.navbar {
+    background-color: #F5EFEA;
+    border: .5px solid #F1ECE8;
+}
+.nav-item {
+    margin-left: 15px;
+}
+.nav-item-right {
+    text-align: right;
+}
+.title {
+    margin: 30px;
+    font-size: 25px;
+    font-family: arial;
+    color: black;
+    text-align: center;
+}
