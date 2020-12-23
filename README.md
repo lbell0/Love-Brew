@@ -1,4 +1,8 @@
-# advanced_db_final_proj
+# Final Project for Advanced DB Course
+
+Group project creating a full stack web application, integrating HTML, CSS, PHP, PLSQL.
+
+RUNNING ON YOUR MACHINE: 
 Change the password in dbinfo.php 
 which correspond to the local oracle 19c instance
 
