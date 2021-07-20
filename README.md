@@ -4,7 +4,7 @@ Group project creating a full stack web application, integrating HTML, CSS, PHP,
 
 RUNNING ON YOUR MACHINE: 
 Change the password in dbinfo.php 
-which correspond to the local oracle 18c instance
+which correspond to the local oracle 11g instance
 
 
 		//All connections to the DB use these credentials
